@@ -2,12 +2,12 @@ package books.service;
 
 import books.entities.Book;
 import books.repository.BooksDAO;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -16,7 +16,6 @@ public class BookServiceImpl implements BookService{
 
     private BooksDAO booksDAO;
 
-    @Autowired
     public BookServiceImpl(BooksDAO booksDAO) {
         this.booksDAO = booksDAO;
     }
@@ -26,15 +25,12 @@ public class BookServiceImpl implements BookService{
     }
 
     public Book findBook(Integer id) {
-        return booksDAO.findById(id);
+        Optional<Book> bookOpt = booksDAO.findById(id);
+        return bookOpt.orElse(new Book());
     }
 
     public void saveBook(Book book) {
         booksDAO.save(book);
-    }
-
-    public void updateBook(Book book) {
-        booksDAO.update(book);
     }
 
     public void deleteBook(Book book) {

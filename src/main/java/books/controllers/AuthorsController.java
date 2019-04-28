@@ -16,7 +16,6 @@ public class AuthorsController {
 
     private final AuthorServiceImpl authorService;
 
-    @Autowired
     public AuthorsController(AuthorServiceImpl authorService) {
         this.authorService = authorService;
     }

@@ -1,14 +1,14 @@
 package books.service;
 
-import books.repository.AuthorDAO;
 import books.entities.Author;
-import books.entities.Book;
+import books.repository.AuthorDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -18,7 +18,7 @@ public class AuthorServiceImpl implements AuthorService {
     private final AuthorDAO authorDAO;
 
     @Autowired
-    public AuthorServiceImpl(AuthorDAO authorDAO) {
+    public AuthorServiceImpl(@Autowired final AuthorDAO authorDAO) {
         this.authorDAO = authorDAO;
     }
 
@@ -30,25 +30,22 @@ public class AuthorServiceImpl implements AuthorService {
         return authors;
     }
     public List<Author> findAuthorByName(String name) {
-        List<Author> authorsWithName = authorDAO.findByName(name);
-        for (Author author: authorsWithName) {
+        List<Author> authors = authorDAO.findByName(name);
+        for(Author author: authors) {
             author.getBooks().iterator();
         }
-        return authorsWithName;
+        return authors;
     }
 
     public Author findAuthor(Integer id) {
-        Author author = authorDAO.findById(id);
+        Optional<Author> authorOpt = authorDAO.findById(id);
+        Author author = authorOpt.orElse(new Author());
         author.getBooks().iterator();
         return author;
     }
 
     public void deleteAuthor(Author author) {
         authorDAO.delete(author);
-    }
-
-    public void updateAuthor(Author author) {
-        authorDAO.update(author);
     }
 
     public void saveAuthor(Author author) {

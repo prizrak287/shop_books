@@ -42,6 +42,8 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.13" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.2" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.0.6.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

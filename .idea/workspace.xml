@@ -7,103 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca2ba4a-c388-4305-9e70-b5aeb3399a76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Books_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b06f70f6-1031-4606-8b77-a18078b2612d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b06f70f6-1031-4606-8b77-a18078b2612d/storage_v2/_src_/database/shop.9to1AA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b06f70f6-1031-4606-8b77-a18078b2612d/storage_v2/_src_/database/shop.9to1AA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/def6b1fd-9d3a-4c10-8f9e-ea561e948b43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/storage_v2/_src_/database/shop.9to1AA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/storage_v2/_src_/database/shop.9to1AA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/Books_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/config/RootConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/entities/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bookInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/books.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authorInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authors.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/bookInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/books.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/META-INF/Books.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/config/RootConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/config/WebInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/AuthorsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/BooksController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/entities/Author.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/entities/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/repository/AuthorDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/repository/BooksDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/AuthorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/AuthorServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/BookServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.17.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.22.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.0.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.0.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Books.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/config/RootConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/config/WebConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/config/WebInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/controllers/AuthorsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/controllers/BooksController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/entities/Author.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/entities/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/repository/AuthorDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/repository/BooksDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/service/AuthorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/service/AuthorServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/service/BookService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/books/service/BookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/books/repository/BooksDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Books_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Books_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/config/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/AuthorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/AuthorsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/AuthorsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/BooksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/BooksController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/repository/AuthorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/repository/AuthorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/repository/BooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/repository/BooksDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/AuthorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/service/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/controllers/AuthorsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/controllers/AuthorsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/controllers/BooksController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/controllers/BooksController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/repository/AuthorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/repository/AuthorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/repository/BooksDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/repository/BooksDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/service/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/service/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/service/AuthorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/service/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/service/BookServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -201,23 +135,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="261">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#43#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="e#1598#1599#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,24 +234,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/books/config/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="258">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -262,80 +256,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/service/BookService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#0#39#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -347,9 +274,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -359,8 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/books/shop/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/shop/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/shop/HibernateUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/shop/Author.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/console_1.sql" />
@@ -393,12 +318,7 @@
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorServiseInterf.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceInterfImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/books/config/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/service/BookService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/books.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/books/entities/Book.java" />
@@ -406,10 +326,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/books/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/repository/BooksDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/config/RootConfig.java" />
       </list>
     </option>
   </component>
@@ -490,15 +417,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="books" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Books" type="b2602c69:ProjectViewProjectNode" />
@@ -675,17 +593,25 @@
       <workItem from="1556261644146" duration="23855000" />
       <workItem from="1556305912773" duration="9187000" />
       <workItem from="1556367190817" duration="906000" />
-      <workItem from="1556456700141" duration="12083000" />
+      <workItem from="1556456700141" duration="20031000" />
     </task>
+    <task id="LOCAL-00001" summary="Dao">
+      <created>1556481380641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556481380641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107930000" />
+    <option name="totallyTimeSpent" value="115878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -698,7 +624,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946696" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5804904" weight="0.3967789" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.82036245" visible="true" weight="0.45241582" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.82036245" visible="true" weight="0.45241582" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -770,6 +696,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dao" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -781,9 +711,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java</url>
-          <line>32</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -807,20 +743,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.17.Final/hibernate-core-5.2.17.Final.jar!/org/hibernate/Session.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -936,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.11.RELEASE/spring-data-commons-2.0.11.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/AuthorRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorServiceInterfImpl.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1018,92 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#531#561#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1131#1132#0" expanded="true" />
@@ -1118,32 +951,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.11.RELEASE/spring-data-commons-2.0.11.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1152,8 +989,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/service/BookService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/AuthorDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#43#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/BooksDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#39#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1162,20 +1055,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="261">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,20 +1,23 @@
 package books.config;
 
-import org.hibernate.SessionFactory;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
-import org.springframework.orm.hibernate5.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
-import java.util.Properties;
 
 @Configuration
-@EnableTransactionManagement
 @EnableAspectJAutoProxy(proxyTargetClass = true)
+@EnableAutoConfiguration
+@ComponentScan
+@EntityScan("books.entities")
+@EnableJpaRepositories("books.repository")
 public class RootConfig {
     @Bean
     public DataSource dataSource() {
@@ -26,7 +29,7 @@ public class RootConfig {
         return dataSource;
     }
 
-    private Properties additionalProperties() {
+    /*private Properties additionalProperties() {
         Properties properties = new Properties();
         properties.put("hibernate.show_sql", "true");
         return properties;
@@ -45,5 +48,5 @@ public class RootConfig {
         final HibernateTransactionManager htm = new HibernateTransactionManager();
         htm.setSessionFactory(sessionFactory);
         return htm;
-    }
+    }*/
 }

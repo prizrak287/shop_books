@@ -15,7 +15,6 @@ public class BooksController {
 
     private BookServiceImpl bookService;
 
-    @Autowired
     public BooksController(BookServiceImpl bookService) {
         this.bookService = bookService;
     }
