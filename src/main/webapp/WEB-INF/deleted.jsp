@@ -1,11 +1,17 @@
-<%@ page contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%--
+  Created by IntelliJ IDEA.
+  User: sbori
+  Date: 30.04.2019
+  Time: 12:06
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<jsp:useBean id="deleted" scope="request" type="java.lang.String"/>
+<jsp:useBean id="entity" scope="request" type="java.lang.String"/>
 
 <html>
 <head>
-    <title>Welcome</title>
+    <title>Deleted ${entity} ${deleted}</title>
     <style type="text/css">
         table {
             font-family: arial, sans-serif;
@@ -14,13 +20,13 @@
         }
 
         td, th {
-            border: 1px solid #dddddd;
+            border: 1px solid #dd8762;
             text-align: left;
             padding: 8px;
         }
 
         tr:nth-child(even) {
-            background-color: #dddddd;
+            background-color: #ddd03a;
         }
 
         #left {
@@ -48,10 +54,7 @@
         }
     </style>
 </head>
-
 <body>
-
-
 <div id="main">
     <div id="left">
         <li><a href="http://localhost:8081/">Main</a></li>
@@ -59,25 +62,11 @@
         <li><a href="http://localhost:8081/books/all">Books</a></li>
     </div>
     <div id="content">
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Books</th>
-            </tr>
-            <jsp:useBean id="listAuthors" scope="request" type="java.util.List"/>
-            <c:forEach var="author" items="${listAuthors}">
-                <tr onclick="window.location.href='http://localhost:8081/authors/${author.id}'">
-                    <td>${author.name}</td>
-                    <td>
-                        <c:forEach var="book" items="${author.books}">
-                            <li>${book.name}</li>
-                        </c:forEach>
-                    </td>
-                </tr>
-            </c:forEach>
-        </table>
+        <h3>${entity} ${deleted} is deleted!</h3>
+        <form action="/">
+            <button type="submit">На главную</button>
+        </form>
     </div>
 </div>
-
 </body>
 </html>

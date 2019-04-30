@@ -12,4 +12,7 @@ import java.util.List;
 public interface AuthorDAO extends JpaRepository<Author, Integer> {
     @Query("select a from Author a where a.name = :name")
     List<Author> findByName(@Param("name") String name);
+
+    @Query(value = "select * from authors limit :count", nativeQuery = true)
+    List<Author> findFirst(@Param("count")Integer limit);
 }

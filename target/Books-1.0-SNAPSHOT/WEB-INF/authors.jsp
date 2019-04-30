@@ -51,31 +51,73 @@
 
 <body>
 
-
+<jsp:useBean id="listAuthors" scope="request" type="java.util.List<books.entities.Author>"/>
 <div id="main">
     <div id="left">
         <li><a href="http://localhost:8081/">Main</a></li>
-        <li><a href="http://localhost:8081/authors">Authors</a></li>
-        <li><a href="http://localhost:8081/books">Books</a></li>
+        <li><a href="http://localhost:8081/authors/all">Authors</a></li>
+        <li><a href="http://localhost:8081/books/all">Books</a></li>
     </div>
     <div id="content">
+        <form action="/authorSearch">
+            <input type="text" name="author_name" id="author_name"/>
+            <input type="submit" value="Search"/>
+        </form>
         <table>
             <tr>
                 <th>Name</th>
                 <th>Books</th>
+                <th>Actions</th>
             </tr>
-            <jsp:useBean id="listAuthors" scope="request" type="java.util.List"/>
             <c:forEach var="author" items="${listAuthors}">
-                <tr onclick="window.location.href='http://localhost:8081/authors/${author.id}'; return false;">
+                <tr onclick="window.location.href='http://localhost:8081/authors/${author.id}'">
                     <td>${author.name}</td>
                     <td>
-                        <c:forEach var="author" items="${author.books}">
-                            <li>${author.name}</li>
+                        <c:forEach var="book" items="${author.books}">
+                            <li>${book.name}</li>
                         </c:forEach>
+                    </td>
+                    <td>
+                        <form action="<c:url value="/deleteAuthor"/>" method="post">
+                            <input type="hidden" name="id" value="${author.id}">
+                            <input type="submit" value="Delete" style="float:left">
+                        </form>
                     </td>
                 </tr>
             </c:forEach>
         </table>
+        <%--<form action="${pageContext.request.contextPath}/addauthor" method="post" accept="application/json;charset=utf-8" id="newAuthorForm">
+            <strong>Author</strong><br>
+            Author name<label for="author_name"></label><input type="text" name="author_name" id="author_name"/>
+            Age<label for="age"></label><input type="text" name="age" id="age"/>
+            Address<label for="address"></label><input type="text" name=address" id="address"/><br>
+            <strong>Book</strong><br>
+            Book name<label for="book_name"></label><input type="text" name="book_name" id="book_name"/>
+            Publishing House<label for="publishingHouse"></label><input type="text" name="publishingHouse" id="publishingHouse"/>
+            Date publishing<label for="datePublishing"></label><input type="text" name=datePublishing" id="datePublishing"/><br>
+            <input type="submit" name="sendForm" value="Send"/>
+        </form>
+
+        <script type="text/javascript">
+            $(function() {
+                $('#newAuthorForm').submit(function() {
+                    var frm = $("#newAuthorForm");
+                    var data = JSON.stringify(frm.serializeArray());
+                    $.ajax(({
+                        url: "/addauthor",
+                        type: "post",
+                        dataType: "json",
+                        contentType: 'application/json',
+                        data: data,
+                        success: function(result) {
+                            alert(result);
+                        }
+                    }));
+                    alert(data);
+                    return false;
+                })
+            })
+        </script>--%>
     </div>
 </div>
 

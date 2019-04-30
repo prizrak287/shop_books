@@ -2,7 +2,6 @@ package books.service;
 
 import books.entities.Author;
 import books.repository.AuthorDAO;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,8 +16,7 @@ public class AuthorServiceImpl implements AuthorService {
 
     private final AuthorDAO authorDAO;
 
-    @Autowired
-    public AuthorServiceImpl(@Autowired final AuthorDAO authorDAO) {
+    public AuthorServiceImpl(final AuthorDAO authorDAO) {
         this.authorDAO = authorDAO;
     }
 
@@ -29,7 +27,16 @@ public class AuthorServiceImpl implements AuthorService {
         }
         return authors;
     }
-    public List<Author> findAuthorByName(String name) {
+
+    public List<Author> findFirst(Integer i) {
+        List<Author> authors = authorDAO.findFirst(i);
+        for (Author author: authors) {
+            author.getBooks().iterator();
+        }
+        return authors;
+    }
+
+    public List<Author> findAuthorsByName(String name) {
         List<Author> authors = authorDAO.findByName(name);
         for(Author author: authors) {
             author.getBooks().iterator();

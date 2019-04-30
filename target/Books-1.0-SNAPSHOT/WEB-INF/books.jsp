@@ -55,20 +55,31 @@
 <div id="main">
     <div id="left">
         <li><a href="http://localhost:8081/">Main</a></li>
-        <li><a href="http://localhost:8081/authors">Authors</a></li>
-        <li><a href="http://localhost:8081/books">Books</a></li>
+        <li><a href="http://localhost:8081/authors/all">Authors</a></li>
+        <li><a href="http://localhost:8081/books/all">Books</a></li>
     </div>
     <div id="content">
+        <form action="/bookSearch">
+            <input type="text" name="book_name"/>
+            <input type="submit" value="Search"/>
+        </form>
         <table>
             <tr>
                 <th>Name</th>
                 <th>Author</th>
+                <th>Action</th>
             </tr>
             <jsp:useBean id="listBooks" scope="request" type="java.util.List"/>
             <c:forEach var="book" items="${listBooks}">
                 <tr onclick="window.location.href='http://localhost:8081/books/${book.id}'">
                     <td>${book.name}</td>
                     <td>${book.author.name}</td>
+                    <td>
+                        <form action="<c:url value="/deleteBook"/>" method="post">
+                            <input type="hidden" name="id" value="${book.id}">
+                            <input type="submit" value="Delete" style="float:left">
+                        </form>
+                    </td>
                 </tr>
             </c:forEach>
         </table>

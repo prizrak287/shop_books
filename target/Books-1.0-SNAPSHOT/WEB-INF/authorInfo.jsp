@@ -41,8 +41,8 @@
     <div id="main">
         <div id="left">
             <li><a href="http://localhost:8081/">Main</a></li>
-            <li><a href="http://localhost:8081/authors">Authors</a></li>
-            <li><a href="http://localhost:8081/books">Books</a></li>
+            <li><a href="http://localhost:8081/authors/all">Authors</a></li>
+            <li><a href="http://localhost:8081/books/all">Books</a></li>
         </div>
         <div id="content">
             <li>Имя: ${authorInfo.name}</li>

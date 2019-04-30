@@ -24,6 +24,10 @@ public class BookServiceImpl implements BookService{
         return booksDAO.findAll();
     }
 
+    public List<Book> findBookByName(String name) {
+       return booksDAO.findByName(name);
+    }
+
     public Book findBook(Integer id) {
         Optional<Book> bookOpt = booksDAO.findById(id);
         return bookOpt.orElse(new Book());
