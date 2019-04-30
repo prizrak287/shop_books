@@ -24,7 +24,8 @@ public class Author {
     @Column(name = "address")
     private String address;
 
-    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true)
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinColumn(name = "book_id")
     private List<Book> books;
 
     public Author() {}
@@ -34,15 +35,6 @@ public class Author {
         this.age = age;
         this.address = address;
         books = new ArrayList<Book>();
-    }
-
-    public void addBook(Book book) {
-        book.setAuthor(this);
-        books.add(book);
-    }
-
-    public void removeBook(Book book) {
-        books.remove(book);
     }
 
     public int getId() {

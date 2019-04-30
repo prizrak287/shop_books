@@ -4,6 +4,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "books")
@@ -19,7 +20,7 @@ public class Book {
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "author_id")
-    private Author author;
+    private List<Author> authors;
 
     @Column(name = "publishing_house")
     private String publishingHouse;
@@ -28,11 +29,6 @@ public class Book {
     private Date datePublishing;
 
     public Book() {}
-
-    public Book(String name, Author author) {
-        this.name = name;
-        this.author = author;
-    }
 
     public int getId() {
         return this.id;
@@ -47,12 +43,12 @@ public class Book {
     }
 
 
-    public Author getAuthor() {
-        return this.author;
+    public List<Author> getAuthor() {
+        return this.authors;
     }
 
-    public void setAuthor(Author author) {
-        this.author = author;
+    public void setAuthor(List<Author> authors) {
+        this.authors = authors;
     }
 
     public String getPublishingHouse() {
@@ -75,7 +71,7 @@ public class Book {
     public String toString() {
         return "\nid = " + this.id +
                 "\nname = " + this.name +
-                "\nauthor + " + author.toString();
+                "\nauthor + " + authors.toString();
     }
 
 }

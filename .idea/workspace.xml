@@ -7,27 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca2ba4a-c388-4305-9e70-b5aeb3399a76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/deleted.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/config/RootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/repository/BooksDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bookInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bookInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/books.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/books.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/entities/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/entities/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authorInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authorInfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authors.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authors.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/bookInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/bookInfo.jsp" afterDir="false" />
@@ -170,15 +152,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/books.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
@@ -199,13 +172,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true">
                 <filter text="" />
               </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,7 +218,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -235,15 +234,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/bookInfo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -264,7 +254,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
   </component>
@@ -293,12 +283,10 @@
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceOld.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/entities/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/db/AuthorDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/repository/AuthorRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorServiseInterf.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceInterfImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/entities/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/repository/BooksDAOImpl.java" />
@@ -320,8 +308,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/deleted.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/books/entities/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/entities/Author.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
@@ -591,7 +581,7 @@
       <workItem from="1556520489996" duration="47000" />
       <workItem from="1556533354344" duration="9126000" />
       <workItem from="1556555714722" duration="9091000" />
-      <workItem from="1556602639966" duration="13299000" />
+      <workItem from="1556602639966" duration="14428000" />
     </task>
     <task id="LOCAL-00001" summary="Dao">
       <created>1556481380641</created>
@@ -607,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556489462428</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Delete an Search">
+      <created>1556618379511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556618379511</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148153000" />
+    <option name="totallyTimeSpent" value="149282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
@@ -664,7 +661,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dao" />
     <MESSAGE value="Add JpaRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add JpaRepository" />
+    <MESSAGE value="Add Delete an Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Delete an Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,24 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -898,18 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,6 +1036,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1075,7 +1065,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
+    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true">
@@ -1084,7 +1074,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
+    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true">

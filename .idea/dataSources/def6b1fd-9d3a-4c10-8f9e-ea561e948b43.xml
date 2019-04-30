@@ -14,7 +14,7 @@
       <ObjectId>16398</ObjectId>
       <StateNumber>584</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>765</IntrospectionStateNumber>
+      <IntrospectionStateNumber>804</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|16459|16461|1
@@ -104,7 +104,7 @@ sequence|table|16493|16495|1
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>766</IntrospectionStateNumber>
+      <IntrospectionStateNumber>805</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -191,7 +191,7 @@ sequence|table|16493|16495|1
     <table id="29" parent="18" name="authors">
       <ObjectId>16495</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>741</StateNumber>
+      <StateNumber>802</StateNumber>
     </table>
     <table id="30" parent="18" name="books">
       <ObjectId>16461</ObjectId>
@@ -224,21 +224,39 @@ sequence|table|16493|16495|1
       <StateNumber>695</StateNumber>
       <TypeId>1042</TypeId>
     </column>
-    <index id="35" parent="29" name="authors_pk">
+    <column id="35" parent="29" name="book_id">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>802</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="36" parent="29" name="authors_pk">
       <ObjectId>16499</ObjectId>
       <StateNumber>695</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="36" parent="29" name="authors_pk">
+    <key id="37" parent="29" name="authors_pk">
       <ObjectId>16500</ObjectId>
       <StateNumber>695</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>authors_pk</UnderlyingIndexName>
     </key>
-    <column id="37" parent="30" name="id">
+    <foreign-key id="38" parent="29" name="authors_books_id_fk">
+      <ObjectId>16513</ObjectId>
+      <StateNumber>803</StateNumber>
+      <ColNames>book_id</ColNames>
+      <RefTableId>16461</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>books</RefTableName>
+      <RefKeyName>books_pk</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="39" parent="30" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -246,46 +264,46 @@ sequence|table|16493|16495|1
       <DefaultExpression>nextval(&apos;books_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="38" parent="30" name="name">
+    <column id="40" parent="30" name="name">
       <Position>2</Position>
       <DataType>char(40)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>651</StateNumber>
       <TypeId>1042</TypeId>
     </column>
-    <column id="39" parent="30" name="author_id">
+    <column id="41" parent="30" name="author_id">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>640</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="40" parent="30" name="publishing_house">
+    <column id="42" parent="30" name="publishing_house">
       <Position>4</Position>
       <DataType>char(40)|0s</DataType>
       <StateNumber>763</StateNumber>
       <TypeId>1042</TypeId>
     </column>
-    <column id="41" parent="30" name="date_of_publish">
+    <column id="43" parent="30" name="date_of_publish">
       <Position>5</Position>
       <DataType>date|0s</DataType>
       <StateNumber>764</StateNumber>
       <TypeId>1082</TypeId>
     </column>
-    <index id="42" parent="30" name="books_pk">
+    <index id="44" parent="30" name="books_pk">
       <ObjectId>16465</ObjectId>
       <StateNumber>651</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="43" parent="30" name="books_pk">
+    <key id="45" parent="30" name="books_pk">
       <ObjectId>16466</ObjectId>
       <StateNumber>640</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>books_pk</UnderlyingIndexName>
     </key>
-    <foreign-key id="44" parent="30" name="books_authors_id_fk">
+    <foreign-key id="46" parent="30" name="books_authors_id_fk">
       <ObjectId>16508</ObjectId>
       <StateNumber>741</StateNumber>
       <ColNames>author_id</ColNames>
