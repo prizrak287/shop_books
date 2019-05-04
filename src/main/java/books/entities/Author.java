@@ -1,9 +1,6 @@
 package books.entities;
 
-import org.springframework.transaction.annotation.Transactional;
-
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -24,18 +21,13 @@ public class Author {
     @Column(name = "address")
     private String address;
 
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinColumn(name = "book_id")
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "authors_books",
+            joinColumns = {@JoinColumn(name = "author_id")},
+            inverseJoinColumns = {@JoinColumn(name = "book_id")}
+    )
     private List<Book> books;
-
-    public Author() {}
-
-    public Author(String name, int age, String address) {
-        this.name = name;
-        this.age = age;
-        this.address = address;
-        books = new ArrayList<Book>();
-    }
 
     public int getId() {
         return this.id;

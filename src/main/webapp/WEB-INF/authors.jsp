@@ -59,8 +59,8 @@
         <li><a href="http://localhost:8081/books/all">Books</a></li>
     </div>
     <div id="content">
-        <form action="/authorSearch">
-            <input type="text" name="author_name" id="author_name"/>
+        <form action="<c:url value="/authors/search"/>" method="get">
+            <input type="text" name="author_name"/>
             <input type="submit" value="Search"/>
         </form>
         <table>
@@ -70,7 +70,7 @@
                 <th>Actions</th>
             </tr>
             <c:forEach var="author" items="${listAuthors}">
-                <tr onclick="window.location.href='http://localhost:8081/authors/${author.id}'">
+                <tr>
                     <td>${author.name}</td>
                     <td>
                         <c:forEach var="book" items="${author.books}">
@@ -78,7 +78,11 @@
                         </c:forEach>
                     </td>
                     <td>
-                        <form action="<c:url value="/deleteAuthor"/>" method="post">
+                        <form action="<c:url value="/authors/info"/>" method="get">
+                            <input type="hidden" name="id" value="${author.id}">
+                            <input type="submit" value="Info" style="float:left">
+                        </form>
+                        <form action="<c:url value="/authors/delete"/>" method="post">
                             <input type="hidden" name="id" value="${author.id}">
                             <input type="submit" value="Delete" style="float:left">
                         </form>
@@ -86,38 +90,34 @@
                 </tr>
             </c:forEach>
         </table>
-        <%--<form action="${pageContext.request.contextPath}/addauthor" method="post" accept="application/json;charset=utf-8" id="newAuthorForm">
+        <form action="<c:url value="/authors/add"/>" method="post">
             <strong>Author</strong><br>
-            Author name<label for="author_name"></label><input type="text" name="author_name" id="author_name"/>
-            Age<label for="age"></label><input type="text" name="age" id="age"/>
-            Address<label for="address"></label><input type="text" name=address" id="address"/><br>
-            <strong>Book</strong><br>
-            Book name<label for="book_name"></label><input type="text" name="book_name" id="book_name"/>
-            Publishing House<label for="publishingHouse"></label><input type="text" name="publishingHouse" id="publishingHouse"/>
-            Date publishing<label for="datePublishing"></label><input type="text" name=datePublishing" id="datePublishing"/><br>
-            <input type="submit" name="sendForm" value="Send"/>
-        </form>
+            Author name
+            <label for="author_name"></label>
+            <input type="text" name="author_name" id="author_name"/>
 
-        <script type="text/javascript">
-            $(function() {
-                $('#newAuthorForm').submit(function() {
-                    var frm = $("#newAuthorForm");
-                    var data = JSON.stringify(frm.serializeArray());
-                    $.ajax(({
-                        url: "/addauthor",
-                        type: "post",
-                        dataType: "json",
-                        contentType: 'application/json',
-                        data: data,
-                        success: function(result) {
-                            alert(result);
-                        }
-                    }));
-                    alert(data);
-                    return false;
-                })
-            })
-        </script>--%>
+            Age
+            <label for="age"></label>
+            <input type="text" name="age" id="age"/>
+
+            Address
+            <label for="address"></label>
+            <input type="text" name="address" id="address"/><br>
+            <strong>Book</strong><br>
+
+            Book name
+            <label for="book_name"></label>
+            <input type="text" name="book_name" id="book_name"/>
+
+            Publishing House
+            <label for="publishingHouse"></label>
+            <input type="text" name="publishingHouse" id="publishingHouse"/>
+
+            Date publishing
+            <label for="datePublishing"></label>
+            <input type="text" name="datePublishing" id="datePublishing"/><br>
+            <input type="submit" value="Send"/>
+        </form>
     </div>
 </div>
 

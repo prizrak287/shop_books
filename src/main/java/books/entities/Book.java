@@ -1,7 +1,5 @@
 package books.entities;
 
-import org.springframework.transaction.annotation.Transactional;
-
 import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
@@ -18,8 +16,7 @@ public class Book {
     @Column(name = "name")
     private String name;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "author_id")
+    @ManyToMany(mappedBy = "books")
     private List<Author> authors;
 
     @Column(name = "publishing_house")
@@ -27,8 +24,6 @@ public class Book {
 
     @Column(name = "date_of_publish")
     private Date datePublishing;
-
-    public Book() {}
 
     public int getId() {
         return this.id;
@@ -42,12 +37,11 @@ public class Book {
         this.name = name;
     }
 
-
-    public List<Author> getAuthor() {
+    public List<Author> getAuthors() {
         return this.authors;
     }
 
-    public void setAuthor(List<Author> authors) {
+    public void setAuthors(List<Author> authors) {
         this.authors = authors;
     }
 

@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <jsp:useBean id="bookInfo" scope="request" type="books.entities.Book"/>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
     <title>${bookInfo.name}</title>
@@ -21,7 +22,7 @@
     }
 
     #content {
-        background: #ff20d0;
+        background: #f1c1ff;
         float: left;
         width: 100%;
         position: relative;
@@ -45,9 +46,11 @@
     </div>
     <div id="content">
         <li>Название: ${bookInfo.name}</li>
-        <a href="http://localhost:8081/authors/${bookInfo.author.id}">
-            <li>Автор: ${bookInfo.author.name}</li>
+        <c:forEach var="author" items="${bookInfo.authors}">
+        <a href="http://localhost:8081/authors/info?id=${author.id}">
+            <li>Автор: ${author.name}</li>
         </a>
+        </c:forEach>
         <li>Издательство: ${bookInfo.publishingHouse}</li>
         <li>Дата издательства: ${bookInfo.datePublishing}</li>
     </div>

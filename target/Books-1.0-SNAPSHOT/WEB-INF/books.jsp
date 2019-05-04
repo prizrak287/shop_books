@@ -59,7 +59,7 @@
         <li><a href="http://localhost:8081/books/all">Books</a></li>
     </div>
     <div id="content">
-        <form action="/bookSearch">
+        <form action="<c:url value="/books/search"/>">
             <input type="text" name="book_name"/>
             <input type="submit" value="Search"/>
         </form>
@@ -71,11 +71,19 @@
             </tr>
             <jsp:useBean id="listBooks" scope="request" type="java.util.List"/>
             <c:forEach var="book" items="${listBooks}">
-                <tr onclick="window.location.href='http://localhost:8081/books/${book.id}'">
+                <tr>
                     <td>${book.name}</td>
-                    <td>${book.author.name}</td>
                     <td>
-                        <form action="<c:url value="/deleteBook"/>" method="post">
+                        <c:forEach var="author" items="${book.authors}">
+                            <li>${author.name}</li>
+                        </c:forEach>
+                    </td>
+                    <td>
+                        <form action="<c:url value="/books/info"/>" method="get">
+                            <input type="hidden" name="id" value="${book.id}">
+                            <input type="submit" value="Info" style="float:left">
+                        </form>
+                        <form action="<c:url value="/books/delete"/>" method="post">
                             <input type="hidden" name="id" value="${book.id}">
                             <input type="submit" value="Delete" style="float:left">
                         </form>

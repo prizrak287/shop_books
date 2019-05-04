@@ -51,7 +51,7 @@
             Список книг:
             <div>
                 <c:forEach var="book" items="${authorInfo.books}">
-                    <a href="http://localhost:8081/books/${book.id}">
+                    <a href="http://localhost:8081/books/info?id=${book.id}">
                         <li>${book.name}</li>
                     </a>
                 </c:forEach>

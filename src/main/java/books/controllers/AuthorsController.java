@@ -1,16 +1,19 @@
 package books.controllers;
 
 import books.entities.Author;
+import books.entities.Book;
 import books.service.AuthorServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.Comparator;
-import java.util.List;
+import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 @Controller
 public class AuthorsController {
@@ -22,7 +25,7 @@ public class AuthorsController {
     }
 
     @GetMapping("/")
-    public String getIndex(Model model) {
+    public String getIndex(Model model) throws ParseException {
         List<Author> authors = authorService.findFirst(5);
         authors.sort(Comparator.comparing(Author::getName));
         model.addAttribute("listAuthors", authors);
@@ -37,14 +40,14 @@ public class AuthorsController {
         return "authors";
     }
 
-    @GetMapping("/authors")
+    @GetMapping("/authors/info")
     public String getAuthor(@RequestParam("id")Integer id, Model model) {
         Author author = authorService.findAuthor(id);
         model.addAttribute("authorInfo", author);
         return "authorInfo";
     }
 
-    @GetMapping("/authorSearch")
+    @GetMapping("/authors/search")
     public String getAuthors(@RequestParam("author_name") String name, Model model) {
         List<Author> authors = authorService.findAuthorsByName(name);
         authors.sort(Comparator.comparing(Author::getName));
@@ -52,7 +55,7 @@ public class AuthorsController {
         return "authors";
     }
 
-    @PostMapping("/deleteAuthor")
+    @PostMapping("/authors/delete")
     public String deleteAuthor(@RequestParam("id")Integer id, Model model) {
         Author author = authorService.findAuthor(id);
         authorService.deleteAuthor(author);
@@ -61,9 +64,36 @@ public class AuthorsController {
         return "deleted";
     }
 
-   /* @PostMapping(value = "/addauthor", consumes = "application/json;charset=utf-8")
-    public @ResponseBody String addAuthor(@RequestBody Author author, Model model) {
+    @PostMapping("/authors/add")
+    public String addAuthor(
+            @RequestParam("author_name") String authorName,
+            @RequestParam("age") Integer age,
+            @RequestParam("address") String address,
+            @RequestParam("book_name") String bookName,
+            @RequestParam("publishingHouse") String publishingHouse,
+            @RequestParam("datePublishing") String datePublishing,
+            Model model) throws ParseException {
+        Author author = new Author();
+        author.setName(authorName);
+        author.setAge(age);
+        author.setAddress(address);
 
-        return "ok";
-    }*/
+        Book book = new Book();
+        book.setName(bookName);
+        book.setPublishingHouse(publishingHouse);
+
+        DateFormat f = new SimpleDateFormat("dd.mm.yyyy", Locale.ENGLISH);
+        Timestamp ts = new Timestamp(f.parse(datePublishing).getTime());
+        book.setDatePublishing(ts);
+
+        List<Book> books = new ArrayList<>();
+        books.add(book);
+        author.setBooks(books);
+        List<Author> authors = new ArrayList<>();
+        authors.add(author);
+        book.setAuthors(authors);
+        authorService.saveAuthor(author);
+        model.addAttribute("authorName", authorName);
+        return "add";
+    }
 }

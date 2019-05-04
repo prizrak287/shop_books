@@ -30,14 +30,14 @@ public class BooksController {
         return "books";
     }
 
-    @GetMapping("/books")
-    public String getBookInfo(@PathVariable int id, Model model) {
+    @GetMapping("/books/info")
+    public String getBookInfo(@RequestParam("id") int id, Model model) {
         Book book = bookService.findBook(id);
         model.addAttribute("bookInfo", book);
         return "bookInfo";
     }
 
-    @GetMapping("/bookSearch")
+    @GetMapping("/books/search")
     public String getBooks(@RequestParam("book_name") String name, Model model) {
         List<Book> books = bookService.findBookByName(name);
         books.sort(Comparator.comparing(Book::getName));
@@ -45,7 +45,7 @@ public class BooksController {
         return "books";
     }
 
-    @PostMapping("/deleteBook")
+    @PostMapping("/books/delete")
     public String deleteBook(@RequestParam("id") Integer id, Model model) {
         Book book = bookService.findBook(id);
         bookService.deleteBook(book);
