@@ -25,7 +25,7 @@ public class AuthorsController {
     }
 
     @GetMapping("/")
-    public String getIndex(Model model) throws ParseException {
+    public String getIndex(Model model) {
         List<Author> authors = authorService.findFirst(5);
         authors.sort(Comparator.comparing(Author::getName));
         model.addAttribute("listAuthors", authors);
