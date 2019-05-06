@@ -1,12 +1,17 @@
 package books.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
 @Entity
 @Table(name = "books")
-public class Book {
+public class Book implements Serializable {
 
     @Id
     @Column(name = "id")
@@ -14,15 +19,18 @@ public class Book {
     private int id;
 
     @Column(name = "name")
+    @JsonProperty("book_name")
     private String name;
 
     @ManyToMany(mappedBy = "books")
+    @JsonIgnore
     private List<Author> authors;
 
     @Column(name = "publishing_house")
     private String publishingHouse;
 
     @Column(name = "date_of_publish")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd.mm.yyyy")
     private Date datePublishing;
 
     public int getId() {

@@ -5,9 +5,7 @@ import books.entities.Book;
 import books.service.AuthorServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;
@@ -65,15 +63,8 @@ public class AuthorsController {
     }
 
     @PostMapping("/authors/add")
-    public String addAuthor(
-            @RequestParam("author_name") String authorName,
-            @RequestParam("age") Integer age,
-            @RequestParam("address") String address,
-            @RequestParam("book_name") String bookName,
-            @RequestParam("publishingHouse") String publishingHouse,
-            @RequestParam("datePublishing") String datePublishing,
-            Model model) throws ParseException {
-        Author author = new Author();
+    public @ResponseBody String addAuthor(@RequestBody Author author, Model model) {
+        /*Author author = new Author();
         author.setName(authorName);
         author.setAge(age);
         author.setAddress(address);
@@ -91,9 +82,9 @@ public class AuthorsController {
         author.setBooks(books);
         List<Author> authors = new ArrayList<>();
         authors.add(author);
-        book.setAuthors(authors);
+        book.setAuthors(authors);*/
         authorService.saveAuthor(author);
-        model.addAttribute("authorName", authorName);
-        return "add";
+        model.addAttribute("authorName", author.getName());
+        return "Author " + author.getName() + " successfully added";
     }
 }

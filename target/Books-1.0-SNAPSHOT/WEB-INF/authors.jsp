@@ -6,6 +6,8 @@
 <html>
 <head>
     <title>Authors</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="serialize.js"></script>
     <style type="text/css">
         table {
             font-family: arial, sans-serif;
@@ -90,7 +92,8 @@
                 </tr>
             </c:forEach>
         </table>
-        <form action="<c:url value="/authors/add"/>" method="post">
+
+        <form action="<c:url value="/authors/add"/>" method="post" id="authorForm">
             <strong>Author</strong><br>
             Author name
             <label for="author_name"></label>
@@ -116,8 +119,38 @@
             Date publishing
             <label for="datePublishing"></label>
             <input type="text" name="datePublishing" id="datePublishing"/><br>
-            <input type="submit" value="Send"/>
         </form>
+        <input type="submit" value="Add author" onclick="send()"/>
+        <script type="text/javascript">
+            function send() {
+                var json = {
+                    author_name: document.getElementById('author_name').value,
+                    age: document.getElementById('age').value,
+                    address: document.getElementById('address').value,
+                    books: [{
+                        book_name: document.getElementById('book_name').value,
+                        publishingHouse: document.getElementById('publishingHouse').value,
+                        datePublishing: document.getElementById('datePublishing').value
+                    }]
+                };
+                $.ajax({
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    url: '/authors/add',
+                    type: 'POST',
+                    data: JSON.stringify(json),
+                    dataType: 'json',
+                    success: function (result) {
+                        alert(result.responseText)
+                    },
+                    error: function (err) {
+                        alert(err.responseText)
+                    }
+                });
+            }
+        </script>
     </div>
 </div>
 

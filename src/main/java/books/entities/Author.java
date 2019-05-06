@@ -1,11 +1,15 @@
 package books.entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Entity
 @Table(name = "authors")
-public class Author {
+public class Author implements Serializable {
 
     @Id
     @Column(name = "id")
@@ -13,6 +17,7 @@ public class Author {
     private int id;
 
     @Column(name = "fio")
+    @JsonProperty("author_name")
     private String name;
 
     @Column(name = "age")

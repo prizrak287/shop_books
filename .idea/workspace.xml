@@ -7,8 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ca2ba4a-c388-4305-9e70-b5aeb3399a76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sbori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/serialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Books_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Books_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b06f70f6-1031-4606-8b77-a18078b2612d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b06f70f6-1031-4606-8b77-a18078b2612d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/entities/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/entities/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/books/entities/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/books/entities/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authors.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/authors.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/AuthorsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/controllers/AuthorsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/entities/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/entities/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Books-1.0-SNAPSHOT/WEB-INF/classes/books/entities/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/controllers/AuthorsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/controllers/AuthorsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/entities/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/entities/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/books/entities/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/books/entities/Book.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,46 +91,25 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Books" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-128">
+              <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/books/config/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="286">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +118,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebConfig.java">
+        <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="272">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +152,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="85" column="41" lean-forward="true" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+            <state relative-caret-position="1088">
+              <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -158,8 +187,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/deleted.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="69" column="6" lean-forward="true" selection-start-line="57" selection-end-line="69" selection-end-column="6" />
+            <state relative-caret-position="1173">
+              <caret line="69" column="6" selection-start-line="57" selection-end-line="69" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -168,16 +197,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/bookInfo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <caret line="9" column="33" selection-start-line="9" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -188,11 +208,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serializeJSON</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -205,11 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/books/db/Author.java" />
-        <option value="$PROJECT_DIR$/src/main/java/books/db/Entitys/Author.java" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/controllers/mainController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/authors.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/shop/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/templates/authors.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/books/config/WebAppInstaller.java" />
         <option value="$PROJECT_DIR$/src/main/resources/java/books/config/WebConfig.java" />
@@ -237,7 +258,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/addAuthor.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/AuthorServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/deletedAuthor.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/books/service/BookServiceImpl.java" />
@@ -246,16 +266,22 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/deleted.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/def6b1fd-9d3a-4c10-8f9e-ea561e948b43/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/java/books/entities/Author.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/controllers/BooksController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/books.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/bookInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/books/entities/Book.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/books/config/JacksonConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/books/config/JacksonConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jquery.serializejson.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_marioizquierdo_jquery.serializeJSON_blob_master_jquery.serializejson.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/serialize.js" />
+        <option value="$PROJECT_DIR$/src/main/java/books/entities/Book.java" />
         <option value="$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/books/entities/Author.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp" />
       </list>
     </option>
   </component>
@@ -275,10 +301,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="127" />
-    <option name="width" value="1440" />
-    <option name="height" value="774" />
+    <option name="x" value="1779" />
+    <option name="y" value="488" />
+    <option name="width" value="1152" />
+    <option name="height" value="620" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -334,42 +360,6 @@
               <item name="Books" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,6 +369,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -397,9 +391,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.4586207" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -527,7 +521,12 @@
       <workItem from="1556555714722" duration="9091000" />
       <workItem from="1556602639966" duration="14428000" />
       <workItem from="1556723951723" duration="7052000" />
-      <workItem from="1556954727263" duration="5110000" />
+      <workItem from="1556954727263" duration="10807000" />
+      <workItem from="1556972854446" duration="4489000" />
+      <workItem from="1557056273707" duration="14121000" />
+      <workItem from="1557093088482" duration="977000" />
+      <workItem from="1557094227654" duration="125000" />
+      <workItem from="1557121015955" duration="4447000" />
     </task>
     <task id="LOCAL-00001" summary="Dao">
       <created>1556481380641</created>
@@ -557,30 +556,37 @@
       <option name="project" value="LOCAL" />
       <updated>1556958381190</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Save">
+      <created>1556966543285</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556966543285</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166443000" />
+    <option name="totallyTimeSpent" value="196299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8833063" visible="true" weight="0.120469086" />
+      <window_info id="Structure" order="1" sideWeight="0.115497075" side_tool="true" weight="0.120469086" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Persistence" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.115497075" side_tool="true" weight="0.120469086" />
+      <window_info id="Persistence" order="7" sideWeight="0.116693676" side_tool="true" visible="true" weight="0.120469086" />
+      <window_info id="Web" order="8" sideWeight="0.115497075" side_tool="true" weight="0.120469086" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946696" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5804904" visible="true" weight="0.39531478" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.82036245" weight="0.38506588" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.5804904" visible="true" weight="0.39509803" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.82036245" weight="0.32941177" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -588,7 +594,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" weight="0.32796487" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.4195096" side_tool="true" weight="0.48333332" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.48081023" weight="0.3235725" />
@@ -602,7 +608,7 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.2033557" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.16151386" />
       <window_info anchor="right" id="JSF" order="9" />
       <window_info anchor="right" id="CDI" order="10" weight="0.32995737" />
       <window_info anchor="right" id="Bean Validation" order="11" />
@@ -633,6 +639,12 @@
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -661,21 +673,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/AuthorDAOImpl.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.11.RELEASE/spring-data-commons-2.0.11.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.11.RELEASE/spring-data-commons-2.0.11.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.11.RELEASE/spring-data-jpa-2.0.11.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -684,13 +681,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/addAuthor.jsp" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-364">
@@ -712,8 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books" />
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors" />
     <entry file="file://$PROJECT_DIR$/src/main/java/books/repository/AuthorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -793,93 +781,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/bookInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -893,153 +798,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/deleted.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="69" column="6" lean-forward="true" selection-start-line="57" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/JacksonConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jquery.serializejson.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_raw.githubusercontent.com_marioizquierdo_jquery.serializeJSON_master_jquery.serializejson.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery-serializejson/jquery.serializejson.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_2.2.0_jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_marioizquierdo_jquery.serializeJSON_blob_master_jquery.serializejson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10914">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/serialize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="68">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1047,10 +855,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/RootConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/deleted.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="6" selection-start-line="57" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/authorInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.10.RELEASE/spring-web-5.0.10.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/entities/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1059,8 +905,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/books/controllers/AuthorsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="96" column="21" lean-forward="true" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="449">
+          <caret line="85" column="41" lean-forward="true" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/authors">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://def6b1fd-9d3a-4c10-8f9e-ea561e948b43/database/shop/schema/public/table/books">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/authors.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="122" column="39" lean-forward="true" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/books/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1077,7 +958,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4586207" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1086,10 +967,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -1123,7 +1005,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4586207" />
               </list>
             </option>
           </splitter-proportions>
@@ -1147,7 +1029,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4586207" />
               </list>
             </option>
           </splitter-proportions>
