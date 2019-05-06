@@ -7,7 +7,6 @@
 <head>
     <title>Authors</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="serialize.js"></script>
     <style type="text/css">
         table {
             font-family: arial, sans-serif;
@@ -143,7 +142,7 @@
                     data: JSON.stringify(json),
                     dataType: 'json',
                     success: function (result) {
-                        alert(result.responseText)
+                        alert(result.responseText + ' will refresh page')
                     },
                     error: function (err) {
                         alert(err.responseText)
